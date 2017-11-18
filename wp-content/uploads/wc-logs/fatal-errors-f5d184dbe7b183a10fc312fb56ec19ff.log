@@ -1,0 +1,30 @@
+2017-11-18T07:29:39+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/MyAppDroid/wp-content/themes/twentyseventeen/functions.php:78
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-content/themes/twentyseventeen/functions.php(102): file_get_contents_tcurl('http://www.fonj...')
+#1 /var/www/html/MyAppDroid/wp-settings.php(426): include('/var/www/html/M...')
+#2 /var/www/html/MyAppDroid/wp-config.php(81): require_once('/var/www/html/M...')
+#3 /var/www/html/MyAppDroid/wp-load.php(37): require_once('/var/www/html/M...')
+#4 /var/www/html/MyAppDroid/wp-admin/admin-ajax.php(22): require_once('/var/www/html/M...')
+#5 {main}
+  thrown
+
+2017-11-18T12:20:30+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/MyAppDroid/wp-content/themes/twentyseventeen/functions.php:78
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-content/themes/twentyseventeen/functions.php(102): file_get_contents_tcurl('http://www.fonj...')
+#1 /var/www/html/MyAppDroid/wp-settings.php(426): include('/var/www/html/M...')
+#2 /var/www/html/MyAppDroid/wp-config.php(81): require_once('/var/www/html/M...')
+#3 /var/www/html/MyAppDroid/wp-load.php(37): require_once('/var/www/html/M...')
+#4 /var/www/html/MyAppDroid/wp-admin/admin-ajax.php(22): require_once('/var/www/html/M...')
+#5 {main}
+  thrown
+
+2017-11-18T12:47:09+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/MyAppDroid/wp-content/themes/twentyseventeen/functions.php:78
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-content/themes/twentyseventeen/functions.php(102): file_get_contents_tcurl('http://www.fonj...')
+#1 /var/www/html/MyAppDroid/wp-settings.php(426): include('/var/www/html/M...')
+#2 /var/www/html/MyAppDroid/wp-config.php(81): require_once('/var/www/html/M...')
+#3 /var/www/html/MyAppDroid/wp-load.php(37): require_once('/var/www/html/M...')
+#4 /var/www/html/MyAppDroid/wp-admin/admin-ajax.php(22): require_once('/var/www/html/M...')
+#5 {main}
+  thrown
+
