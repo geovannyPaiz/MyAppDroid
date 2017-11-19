@@ -28,3 +28,210 @@ Stack trace:
 #5 {main}
   thrown
 
+2017-11-18T23:22:40+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(2, Object(WC_Order_Item_Shipping), 57)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(2, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 2, Object(WC_Order_Item_Shipping), 57)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->cre
+
+2017-11-18T23:23:20+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(4, Object(WC_Order_Item_Shipping), 58)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(4, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 4, Object(WC_Order_Item_Shipping), 58)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->cre
+
+2017-11-18T23:26:54+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(6, Object(WC_Order_Item_Shipping), 59)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(6, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 6, Object(WC_Order_Item_Shipping), 59)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->cre
+
+2017-11-18T23:28:48+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(8, Object(WC_Order_Item_Shipping), 60)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(8, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 8, Object(WC_Order_Item_Shipping), 60)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->cre
+
+2017-11-18T23:29:10+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(10, Object(WC_Order_Item_Shipping), 61)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(10, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 10, Object(WC_Order_Item_Shipping), 61)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->
+
+2017-11-18T23:38:58+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(12, Object(WC_Order_Item_Shipping), 68)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(12, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 12, Object(WC_Order_Item_Shipping), 68)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->
+
+2017-11-18T23:41:53+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(14, Object(WC_Order_Item_Shipping), 69)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(14, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 14, Object(WC_Order_Item_Shipping), 69)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->
+
+2017-11-18T23:42:46+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(16, Object(WC_Order_Item_Shipping), 70)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(16, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 16, Object(WC_Order_Item_Shipping), 70)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->
+
+2017-11-18T23:44:55+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(18, Object(WC_Order_Item_Shipping), 71)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(18, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 18, Object(WC_Order_Item_Shipping), 71)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->
+
+2017-11-18T23:45:24+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(20, Object(WC_Order_Item_Shipping), 72)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(20, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 20, Object(WC_Order_Item_Shipping), 72)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->
+
+2017-11-18T23:52:56+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(22, Object(WC_Order_Item_Shipping), 73)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(22, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 22, Object(WC_Order_Item_Shipping), 73)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->
+
+2017-11-19T00:18:12+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(24, Object(WC_Order_Item_Shipping), 74)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(24, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 24, Object(WC_Order_Item_Shipping), 74)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->
+
+2017-11-19T00:24:53+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(26, Object(WC_Order_Item_Shipping), 76)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(26, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 26, Object(WC_Order_Item_Shipping), 76)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->
+
+2017-11-19T00:55:55+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(28, Object(WC_Order_Item_Shipping), 77)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(28, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 28, Object(WC_Order_Item_Shipping), 77)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->
+
+2017-11-19T01:05:31+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(30, Object(WC_Order_Item_Shipping), 78)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(30, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 30, Object(WC_Order_Item_Shipping), 78)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->
+
+2017-11-19T01:18:51+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(32, Object(WC_Order_Item_Shipping), 79)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(32, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 32, Object(WC_Order_Item_Shipping), 79)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->
+
+2017-11-19T01:21:55+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(34, Object(WC_Order_Item_Shipping), 80)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(34, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 34, Object(WC_Order_Item_Shipping), 80)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->
+
+2017-11-19T01:25:30+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(36, Object(WC_Order_Item_Shipping), 81)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(36, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 36, Object(WC_Order_Item_Shipping), 81)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->
+
+2017-11-19T01:28:22+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(38, Object(WC_Order_Item_Shipping), 82)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(38, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 38, Object(WC_Order_Item_Shipping), 82)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->
+
+2017-11-19T01:30:03+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(40, Object(WC_Order_Item_Shipping), 83)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(40, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 40, Object(WC_Order_Item_Shipping), 83)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->
+
+2017-11-19T01:30:21+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(42, Object(WC_Order_Item_Shipping), 84)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(42, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 42, Object(WC_Order_Item_Shipping), 84)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->
+
+2017-11-19T01:32:25+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(44, Object(WC_Order_Item_Shipping), 85)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(44, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 44, Object(WC_Order_Item_Shipping), 85)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->
+
+2017-11-19T01:33:03+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on boolean in /var/www/html/MyAppDroid/wp-content/plugins/wp-crowdfunding/includes/woocommerce/class-wpneo-crowdfunding.php:726
+Stack trace:
+#0 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(286): Wpneo_Crowdfunding->crowdfunding_new_order_item(46, Object(WC_Order_Item_Shipping), 86)
+#1 /var/www/html/MyAppDroid/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(46, Array)
+#2 /var/www/html/MyAppDroid/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-item-type-data-store.php(50): do_action('woocommerce_new...', 46, Object(WC_Order_Item_Shipping), 86)
+#4 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(157): Abstract_WC_Order_Item_Type_Data_Store->create(Object(WC_Order_Item_Shipping))
+#5 /var/www/html/MyAppDroid/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php(201): WC_Data_Store->
+
